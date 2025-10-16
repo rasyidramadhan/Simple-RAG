@@ -5,7 +5,7 @@ This RAG API is a simple implementation of a Retrieval-Augmented Generation syst
 - Flask as the REST API,
 - Qdrant as the vector database,
 - SentenceTransformer for text embedding,
-- OpenAI GPT as the generative model.
+- OpenAI as the generative model.
 
 Architecture:
 User → Flask API → SentenceTransformer → Qdrant → OpenAI → Response
